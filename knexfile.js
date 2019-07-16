@@ -6,10 +6,10 @@ module.exports = {
     },
     useNullAsDefault: true,
     migrations: {
-      directory: './data'
+      directory: './data/migrations'
     },
     seeds: {
-      directory: './data'
+      directory: './data/seeds'
     }
   }
 };
